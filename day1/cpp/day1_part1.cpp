@@ -4,7 +4,7 @@
 #include <vector>
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
-  std::ifstream file("input.txt");
+  std::ifstream file("test_input.txt");
   if (!file.is_open()) {
     std::cerr << "Failed to open file\n";
     return 1;

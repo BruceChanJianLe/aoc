@@ -23,24 +23,19 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
   for (const auto &input : inputs) {
     auto move = std::stoi(input.substr(1));
     // If I pass zero
-    // 68 / 100 = 0
     counter += move / 100;
-    // move -> 68
     move %= 100;
+
     if (input.front() == 'L') {
-      // me walking backwards
+      // if current idx is not zero, moving leftwards by more than current idx will result in passing zero
+      if (move >= curr_idx && curr_idx != 0) ++counter;
       move = 100 - move;
-      // 32 < 50
-      if (move < curr_idx) ++counter;
     } else {
-      // move >
+      // moving rightwards more than or equal the difference between 100 and current idx will result in passing or landing on zero
+      if (move >= 100 - curr_idx) ++counter;
     }
 
-    // If I pass zero
-    counter += (curr_idx + move) / 100;
     curr_idx = (curr_idx + move) % 100;
-    // If I land zero :D
-    if (0 == curr_idx) ++counter;
   }
 
   std::cout << "counter: " << counter << std::endl;
