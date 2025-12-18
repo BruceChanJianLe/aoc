@@ -10,5 +10,6 @@
 
 - **[2025](https://github.com/BruceChanJianLe/aoc/tree/2025)**
   - Day 01: Secret Entrance
-    - [Part 1 Source](https://github.com/BruceChanJianLe/aoc/blob/2025/day1/cpp/day1_part1.cpp)
-    - [Part 2 Source](https://github.com/BruceChanJianLe/aoc/blob/2025/day1/cpp/day1_part2.cpp)
+    - cpp
+      - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/2025/day1/cpp/day1_part1.cpp)
+      - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/2025/day1/cpp/day1_part2.cpp)
