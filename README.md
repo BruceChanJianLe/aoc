@@ -13,3 +13,6 @@
     - cpp
       - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/2025/day1/cpp/day1_part1.cpp)
       - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/2025/day1/cpp/day1_part2.cpp)
+  - Day 02: Gift Shop
+    - cpp
+      - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/2025/day2/cpp/day2_part1.cpp)
