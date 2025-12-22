@@ -1,9 +1,11 @@
 #pragma once
 
 #include <string_view>
+#include <system_error>
 #include <vector>
 #include <fstream>
 #include <iostream>
+#include <charconv>
 
 namespace aoc
 {
@@ -42,4 +44,19 @@ namespace aoc
       return inputs;
     }
   };
+
+  template <typename T>
+  bool convert(std::string_view sv, T& value) {
+    if (sv.empty()) return false;
+
+    const char* first = sv.data();
+    const char* last = sv.data() + sv.size();
+
+    std::from_chars_result result = std::from_chars(first, last, value);
+
+    if (result.ec != std::errc()) return false;
+    if (result.ptr != last) return false;
+
+    return true;
+  }
 } // aoc
