@@ -31,13 +31,17 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
 
     // 1. Iterate through number of digits possible
     // e.g. for range 1234 -> 5678, iterate until 2
+    auto max_size = hi_str.size() / 2;
+    max_size = max_size % 2 == 0 ? max_size : max_size + 1;
+    auto max_pattern = std::stol(hi_str.substr(0, max_size));
     for (int i = 0; i < hi_str.size() / 2; ++i) {
       auto lo_pattern = "1" + std::string(i, '0'); // digit pattern 1(0...)
       auto hi_pattern = "9" + std::string(i, '9'); // digit pattern 9(9...)
 
       // 2. Iterate from lo to hi digit pattern
       // e.g. 1 -> 9, then 10 -> 99
-      for (int j = std::stol(lo_pattern); j <= std::stol(hi_pattern); ++j) {
+      auto end_pattern = std::min(std::stol(hi_pattern), max_pattern);
+      for (int j = std::stol(lo_pattern); j <= end_pattern; ++j) {
         // divisible by 11(1...)
         if (i > 0 && j % std::stol(std::string(lo_pattern.size(), '1')) == 0) continue;
 
