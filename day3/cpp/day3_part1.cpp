@@ -11,14 +11,14 @@
 int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
   static const char* default_input = "test";
 
-  std::string_view input;
+  std::string_view input_path;
   if (argc != 2) {
-    input = default_input;
+    input_path = default_input;
   } else if (argc == 2){
-    input = argv[1];
+    input_path = argv[1];
   }
 
-  auto inputs = aoc::InputReader::get_input<std::string>(input);
+  auto inputs = aoc::InputReader::get_input<std::string>(input_path);
 
   int sum{0};
   for (const auto input : inputs) {
