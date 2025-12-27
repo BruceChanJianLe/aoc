@@ -63,11 +63,14 @@ inline void is_valid(uint64_t &result, uint64_t num, std::string_view sv) {
   }
 }
 
+// Second attempt: given a input string, break it into equal word_size
+// (from 1 to half the size of input string) and compare each character,
+// add to result if after all comparisons and no invalid pattern is found
 inline void second_attempt(std::string_view sv, uint64_t num, uint64_t& result) {
   const auto length_half = sv.size() / 2;
   const auto length_full = sv.size();
   // std::cout << "Running checks on: " << sv << '\n' << std::endl;
-  // loops of chunk view
+  // loops of chunk view ()
   for (const auto word_size : std::ranges::iota_view(1u, length_half + 1u)) {
     // Sanity check, whether can break into equal chuncks
     if (length_full % word_size != 0) continue;
@@ -82,6 +85,7 @@ inline void second_attempt(std::string_view sv, uint64_t num, uint64_t& result) 
         continue;
       } 
 
+      // Compare current view with previous view by each char
       for (const auto [lp, rp] : std::ranges::zip_view(prev_view, curr_view)) {
         // Invalid ID
         if (lp != rp) {
