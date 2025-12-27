@@ -21,7 +21,7 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
   auto inputs = aoc::InputReader::get_input<std::string>(input_path);
 
   int sum{0};
-  for (const auto input : inputs) {
+  for (const auto& input : inputs) {
     std::cout << std::string_view(input.begin(), input.end()) << std::endl;
 
     auto first{input.begin()};
