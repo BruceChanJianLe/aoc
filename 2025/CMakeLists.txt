@@ -29,3 +29,12 @@ add_subdirectory(day2/cpp)
 
 # Add day3
 add_subdirectory(day3/cpp)
+
+# Add day4
+add_subdirectory(day4/cpp)
+
+# Add day5
+add_subdirectory(day5/cpp)
+
+# Add day6
+add_subdirectory(day6/cpp)
