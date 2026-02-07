@@ -21,6 +21,16 @@ endif()
 # Use ctest
 enable_testing()
 
+include(FetchContent)
+
+# Make mdspan available project wide
+FetchContent_Declare(
+  kokkos_mdspan
+  GIT_REPOSITORY https://github.com/kokkos/mdspan.git
+  GIT_TAG stable
+)
+FetchContent_MakeAvailable(kokkos_mdspan)
+
 # Add day1
 add_subdirectory(day1/cpp)
 
