@@ -22,3 +22,13 @@ add_test(NAME day5_part1_cjl_test COMMAND day5_part1_cjl)
 set_tests_properties(day5_part1_cjl_test PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 add_test(NAME day5_part1_cjl COMMAND day5_part1_cjl cjl)
 set_tests_properties(day5_part1_cjl PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
+
+# cjl part2
+add_executable(day5_part2_cjl day5_part2_cjl.cpp)
+target_include_directories(day5_part2_cjl PUBLIC ../../common)
+target_link_libraries(day5_part2_cjl PRIVATE TBB::tbb)
+
+add_test(NAME day5_part2_cjl_test COMMAND day5_part2_cjl)
+set_tests_properties(day5_part2_cjl_test PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
+add_test(NAME day5_part2_cjl COMMAND day5_part2_cjl cjl)
+set_tests_properties(day5_part2_cjl PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
