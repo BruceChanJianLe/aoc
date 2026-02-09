@@ -31,6 +31,9 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(kokkos_mdspan)
 
+# For parallel execution
+find_package(TBB REQUIRED)
+
 # Add day1
 add_subdirectory(day1/cpp)
 
