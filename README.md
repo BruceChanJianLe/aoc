@@ -10,7 +10,7 @@
 
 
 <details>
-<summary>**[2025](https://github.com/BruceChanJianLe/aoc/tree/2025)**</summary>
+<summary><b><a href="https://github.com/BruceChanJianLe/aoc/tree/master/2025">2025</a></b></summary>
 
 - Day 01: Secret Entrance
   - cpp
