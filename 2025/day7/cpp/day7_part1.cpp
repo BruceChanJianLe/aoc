@@ -16,5 +16,23 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
 
   auto inputs = aoc::InputReader::get_input<std::string>(input_path);
 
+  int count{0};
+  for (int r = 1; r < inputs.size(); ++r) {
+    for (int c = 0; c < inputs.front().size(); ++c) {
+      if (inputs[r-1][c] == 'S' || inputs[r-1][c] == '|') {
+        if (inputs[r][c] == '^') {
+          inputs[r][c-1] = '|';
+          inputs[r][c+1] = '|';
+          count++;
+        }
+        else {
+          inputs[r][c] = '|';
+        }
+      }
+    }
+  }
+
+  std::cout << "count: " << count << std::endl;
+
   return 0;
 }
