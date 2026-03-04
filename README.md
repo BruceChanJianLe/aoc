@@ -28,4 +28,8 @@
   - cpp
     - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day4/cpp/day1_part1.cpp)
     - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day4/cpp/day1_part2.cpp)
+- Day 05: Cafeteria
+  - cpp
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day1_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day1_part2.cpp)
 </details>
