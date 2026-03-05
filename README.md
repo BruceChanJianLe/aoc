@@ -32,4 +32,8 @@
   - cpp
     - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day1_part1.cpp)
     - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day1_part2.cpp)
+- Day 06: Trash Compactor
+  - cpp
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day1_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day1_part2.cpp)
 </details>
