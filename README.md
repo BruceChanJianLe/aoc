@@ -18,22 +18,22 @@
     - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day1/cpp/day1_part2.cpp)
 - Day 02: Gift Shop
   - cpp
-    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day2/cpp/day1_part1.cpp)
-    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day2/cpp/day1_part2.cpp)
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day2/cpp/day2_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day2/cpp/day2_part2.cpp)
 - Day 03: Lobby
   - cpp
-    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day3/cpp/day1_part1.cpp)
-    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day3/cpp/day1_part2.cpp)
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day3/cpp/day3_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day3/cpp/day3_part2.cpp)
 - Day 04: Printing Department
   - cpp
-    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day4/cpp/day1_part1.cpp)
-    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day4/cpp/day1_part2.cpp)
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day4/cpp/day4_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day4/cpp/day4_part2.cpp)
 - Day 05: Cafeteria
   - cpp
-    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day1_part1.cpp)
-    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day1_part2.cpp)
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day5_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day5/cpp/day5_part2.cpp)
 - Day 06: Trash Compactor
   - cpp
-    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day1_part1.cpp)
-    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day1_part2.cpp)
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day6_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day6_part2.cpp)
 </details>
