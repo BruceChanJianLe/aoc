@@ -36,4 +36,8 @@
   - cpp
     - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day6_part1.cpp)
     - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day6/cpp/day6_part2.cpp)
+- Day 07: Laboratories
+  - cpp
+    - [Part 1](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day7/cpp/day7_part1.cpp)
+    - [Part 2](https://github.com/BruceChanJianLe/aoc/blob/master/2025/day7/cpp/day7_part2.cpp)
 </details>
